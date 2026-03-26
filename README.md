@@ -29,7 +29,7 @@ The project repository is organized as follows:
 ## Sprint Board
 Project tasks were planned and tracked using a sprint board.
 
-🔗 Sprint Board Link: *[ADD YOUR LINK HERE]*
+🔗 Sprint Board Link: https://bengukalayy.atlassian.net/jira/software/projects/GMS/boards/35
 
 ## CI/CD Configuration
 A basic CI/CD pipeline is configured using GitHub Actions. The system automatically checks whether the project builds successfully when new code is pushed to the repository.
