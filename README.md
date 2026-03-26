@@ -3,28 +3,35 @@
 The Gym Management System is a web-based application developed to manage gym operations in a more organized and efficient way. The system allows administrators to manage members, trainers, memberships, and payments through a centralized platform.
 This project was developed as part of a software development course and includes both technical implementation and project management processes such as sprint planning, risk analysis, and testing.
 
-## Features (MVP)
-- Member management (add, update, delete)
-- Trainer management
-- Membership tracking
-- Payment management
-- Role-based access control (Admin, Trainer, Member)
-- Basic dashboard system
+## Features 
+- Member Management
+- Trainer Management
+- Membership Plans
+- Payment Tracking
+- Attendance Tracking
 
 ## Technologies Used
-- Java 17
+- Java
 - Spring Boot
 - MySQL
-- HTML, CSS
+- Maven
+- Thymeleaf
 - GitHub
-- Jira
 
-## Project Structure
-The project repository is organized as follows:
+## Database Tables
+- users
+- members
+- trainers
+- trainer_assignments
+- membership_plans
+- payments
+- attendance
 
-- src/ → Source code of the application  
-- docs/ → Project documentation (reports, analysis, plans)  
-- README.md → Project overview and explanation  
+## How to Run
+1. Clone the repository
+2. Open project in Eclipse
+3. Configure MySQL database
+4. Run Spring Boot application
 
 ## Sprint Board
 Project tasks were planned and tracked using a sprint board.
@@ -44,14 +51,6 @@ All project documents are available in the docs/ folder:
 - Implementation Roadmap  
 - Demo Plan  
 
-## Risk Updates
-During the development process, project risks were evaluated and updated:
-- Unauthorized access risk reduced with role-based access control  
-- Payment errors reduced using validation checks  
-- Testing risks reduced with a structured testing plan  
-- GitHub merge conflicts identified as a collaboration risk  
-- Database risks managed with backup strategies  
-
 ## Validation and Testing
 The system was tested using:
 - Unit Testing  
@@ -70,27 +69,10 @@ The project is considered successful if:
 - Reports are accurate  
 - The system runs without major errors
 
-## Demo Plan
-The project demo will include:
-1. Introduction of the system  
-2. GitHub repository overview  
-3. Sprint board presentation  
-4. CI/CD pipeline demonstration  
-5. Running the system (live demo)  
-6. Documentation explanation  
-7. Risk analysis summary
-
-## How to Run the Project
-1. Install Java 17 and MySQL  
-2. Configure the database  
-3. Open the project in an IDE (IntelliJ recommended)  
-4. Run the Spring Boot application  
-5. Access the system via browser  
-
 ## Conclusion
 This project demonstrates both software development and project management skills. It includes a working system along with documentation, risk analysis, testing strategies, and CI/CD integration.
 
 ## Group Members
-- Elif Renkgören
+- Elif Rengören
 - Bengü Kalay
 - Esra Sütcü
