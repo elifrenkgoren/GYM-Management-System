@@ -64,7 +64,7 @@ Member extends Person
 ---
 
 ## 👩‍💻 DEVELOPERS
-Esra Sutcu  
+Esra Sütcü  
 Bengü Kalay  
 Elif Renkgören  
 ---
