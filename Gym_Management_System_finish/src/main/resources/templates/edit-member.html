@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Edit Member</h2>
+
+<form action="/update-member" method="post">
+
+<input type="hidden" name="id" th:value="${member.id}">
+
+First Name:
+<input type="text" name="firstName" th:value="${member.firstName}"><br>
+
+Last Name:
+<input type="text" name="lastName" th:value="${member.lastName}"><br>
+
+Email:
+<input type="text" name="email" th:value="${member.email}"><br>
+
+Phone:
+<input type="text" name="phone" th:value="${member.phone}"><br>
+
+<button type="submit">Update</button>
+
+</form>
+
+</body>
+</html>
